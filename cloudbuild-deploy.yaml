@@ -22,7 +22,7 @@ steps:
       - "us-central1"
       - "--images"
       - "todo-app=gcr.io/$PROJECT_ID/todo-app:$SHORT_SHA"
-      - "--target"
+      - "--to-target"
       - "hello-cloud-deploy-target-1"
       - "--source"
       - "cloudrun-service.yaml"
